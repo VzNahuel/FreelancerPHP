@@ -19,8 +19,8 @@
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a class="enlace" href="index.html">Inicio</a>
-            <a class="enlace" href="sobre_mi.html">Sobre Mi</a>
+            <a class="enlace" href="index.php">Inicio</a>
+            <a class="enlace" href="sobre_mi.php">Sobre Mi</a>
             <a class="enlace" href="#">Proyectos</a>
             
         </nav>
@@ -29,7 +29,8 @@
     <main class="contenedor sombra margen-top">
         <h2>Proyectos</h2>
 
-        <section class="proyectos">
+        <section class="proyectos contenedor">
+
             <div class="proyecto sombra">
                 <a class="enlace" href="https://vzn-frontend-store.netlify.app/">
                     <div class="contenedor-imagen">
@@ -41,11 +42,10 @@
                         </picture>
                     </div>
 
-                    <div class="contenedor-texto">
-                        <p class="proyecto-texto">Front End Store</p>
-                    </div>
+                    <p class="proyecto-texto">Front End Store</p>
                 </a>
             </div>
+            <!-- Proyecto -->
 
             <div class="proyecto sombra">
                 <a class="enlace" href="https://vzn17-cafe-blog.netlify.app/">
@@ -57,13 +57,11 @@
                             class="proyecto-imagen" src="img/BlogDeCafe.png" alt="Imagen Blog">
                         </picture>
                     </div>
-                    
-                    <div class="contenedor-texto">
-                        <p class="proyecto-texto">Blog de Cafe</p>
-                    </div>
+
+                    <p class="proyecto-texto">Blog de Cafe</p>
                 </a>
-                    
             </div>
+            <!-- Proyecto-->
 
             <div class="proyecto sombra">
                 <a class="enlace" href="https://festival-musica-nvz.netlify.app/">
@@ -76,11 +74,11 @@
                         </picture>
                     </div>
 
-                    <div class="contenedor-texto">
-                        <p class="proyecto-texto">Festival de Musica</p>
-                    </div>
+                    <p class="proyecto-texto">Festival de Musica</p>
                 </a>                
             </div>
+            <!-- Proyecto -->
+
         </section>
         
     </main>

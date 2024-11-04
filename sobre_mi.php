@@ -17,9 +17,9 @@
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a class="enlace" href="index.html">Inicio</a>
-            <a class="enlace" href="sobre_mi.html">Sobre Mi</a>
-            <a class="enlace" href="proyectos.html">Proyectos</a>
+            <a class="enlace" href="index.php">Inicio</a>
+            <a class="enlace" href="#">Sobre Mi</a>
+            <a class="enlace" href="proyectos.php">Proyectos</a>
         </nav>
     </div>
     
